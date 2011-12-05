@@ -1,0 +1,21 @@
+# gTransfer
+###A simple file transfer from client to server
+
+##How to Use
+First, compling all file:
+
+		$ javac *.java
+		
+and run it in two separate terminal:
+
+		$ java gTransferServer  [path to save the download]
+		$ java gTransferClient  [path for the file uploaded]
+		
+###Example
+
+		$ java gTransferServer  /home/gian/Download
+		$ java gTransferClient  /home/gian/Desktop
+
+The server never gets closed automatically because it always waits for new connection. 
+This verision works only locally, if you have a VPN connection just replace the string addr in gTransferClient with 
+its own IP address so that leaving the computer on wherever you are you can download any file directly to your desktop.
