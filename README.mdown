@@ -17,5 +17,4 @@ and run it in two separate terminal:
 		$ java gTransferClient  /home/gian/Desktop/prova.txt
 
 The server never gets closed automatically because it always waits for new connection. 
-This verision works only locally, if you have a VPN connection just replace the string addr in gTransferClient with 
-its own IP address so that leaving the computer on wherever you are you can download any file directly to your desktop.
+This verision works only LOCALLY.
