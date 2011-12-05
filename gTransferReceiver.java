@@ -34,7 +34,7 @@ public class gTransferReceiver extends Thread {
  
           File inFile = (File) objIn.readObject();
  
-	      /* path for the new file */
+          /* path for the new file */
           File saveFile = new File(path + "/" + inFile.getName());
  
           /* save the file */
@@ -66,7 +66,7 @@ public class gTransferReceiver extends Thread {
       byte[] file = new byte[1024];
       int i = 0;
 
-	  /* save the file */
+      /* save the file */
       while((i = in.read(file))!=-1) {
           out.write(file, 0, i);
       }
