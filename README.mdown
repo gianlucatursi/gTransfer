@@ -14,7 +14,7 @@ and run it in two separate terminal:
 ###Example
 
 		$ java gTransferServer  /home/gian/Download
-		$ java gTransferClient  /home/gian/Desktop
+		$ java gTransferClient  /home/gian/Desktop/prova.txt
 
 The server never gets closed automatically because it always waits for new connection. 
 This verision works only locally, if you have a VPN connection just replace the string addr in gTransferClient with 
